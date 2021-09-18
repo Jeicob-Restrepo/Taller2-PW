@@ -35,8 +35,8 @@ class Pantalla{
             this.valoranterior = eval(this.valornuevo);
             this.pintarPantalla();
         } catch (error) {
-            this.valornuevo = 'Error';
             this.valornuevo = '';
+            this.valoranterior = '';
             this.pintarPantalla();
         }
     }

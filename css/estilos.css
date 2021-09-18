@@ -114,7 +114,6 @@ button:active{
     border-radius: 3px;
     padding: 5px;
     margin-bottom: 10px;
-    word-break: break-all;
 }
 
 .botondbh{
@@ -129,8 +128,12 @@ button:active{
 
 #vinferior{
     text-align: end;
+    max-width: 230px;
+    overflow-x: auto;
 }
 
 #vsuperior{
-    min-height: 20px;
+    max-width: 230px;
+    min-height: 22px;
+    overflow-x: hidden;
 }
