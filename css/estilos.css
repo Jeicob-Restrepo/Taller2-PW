@@ -92,16 +92,15 @@ body{
 }
 
 button{
-    margin: 5%;
-    border-radius: 20%;
+    margin: 10px;
+    border-radius: 10px;
     border: none;
     color: #7ec699;
     background-color: #282c34;
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
     cursor: pointer;
     box-shadow: 5px 3px #47151533;
-    margin: 5px;
 }
 
 button:active{
@@ -120,10 +119,10 @@ button:active{
 
 .botondbh{
     grid-column: span 2;
-    width: 100%;
+    width: 90%;
 }
 
 .botondbv{
     grid-row: span 2;
-    height: 100%;
+    height: 90%;
 }
