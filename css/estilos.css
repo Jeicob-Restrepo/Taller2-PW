@@ -126,3 +126,11 @@ button:active{
     grid-row: span 2;
     height: 90%;
 }
+
+#vinferior{
+    text-align: end;
+}
+
+#vsuperior{
+    min-height: 20px;
+}
