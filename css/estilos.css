@@ -4,9 +4,10 @@ body{
 }
 
 .titulo{
-    color: #7ec699;
+    color: #242b27;
     text-align: center;
     font-size: 300%;
+    text-shadow: 0 0 3px #fff, 0 0 0px #fff, 0 0 3px #7ec699, 0 0 4px #7ec699, 0 0 5px #7ec699, 0 0 6px #7ec699, 0 0 7px #7ec699;;
 }
 
 .opciones{
@@ -62,5 +63,67 @@ body{
 }
 
 .imgv{
-    width: 8%;
+    width: 5%;
+    border-radius: 100%;
+    box-shadow:  0 0 3px #fff, 0 0 0px #fff, 0 0 3px #7ec699, 0 0 4px #7ec699, 0 0 5px #7ec699, 0 0 6px #7ec699, 0 0 7px #7ec699;;
+}
+
+.pagsup > h1{
+    color: #242b27;
+    text-align: center;
+    text-shadow: 0 0 3px #fff, 0 0 0px #fff, 0 0 3px #7ec699, 0 0 4px #7ec699, 0 0 5px #7ec699, 0 0 6px #7ec699, 0 0 7px #7ec699;
+    margin-bottom: 100px;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-calculadora{
+    background-color: #7ec699;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 15px 10px 3px #00000033;
+}
+
+button{
+    margin: 5%;
+    border-radius: 20%;
+    border: none;
+    color: #7ec699;
+    background-color: #282c34;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    box-shadow: 5px 3px #47151533;
+    margin: 5px;
+}
+
+button:active{
+    background-color: #4a515f;
+}
+
+.pantalla{
+    background-color: #282c34;
+    grid-column: 1 /-1;
+    color: #7ec699;
+    border-radius: 3px;
+    padding: 5px;
+    margin-bottom: 10px;
+    word-break: break-all;
+}
+
+.botondbh{
+    grid-column: span 2;
+    width: 100%;
+}
+
+.botondbv{
+    grid-row: span 2;
+    height: 100%;
 }
