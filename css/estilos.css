@@ -129,11 +129,16 @@ button:active{
 #vinferior{
     text-align: end;
     max-width: 230px;
-    overflow-x: auto;
+    min-height: 20px;
+    max-height: 20px;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 #vsuperior{
     max-width: 230px;
-    min-height: 22px;
+    min-height: 20px;
+    max-height: 20px;
+    overflow-y: hidden;
     overflow-x: hidden;
 }
