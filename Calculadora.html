@@ -6,7 +6,6 @@
     <title>Calculadora</title>
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
     <script src="js/pantalla.js" type="text/javascript"></script>
-    <script src="js/Calculadora.js" type="text/javascript"></script>
     <script src="js/variables.js" type="text/javascript" defer></script>
 </head>
 <body>
@@ -26,22 +25,22 @@
             </div>
             <button class="botondbh" onclick="pantalla.limpiarPantalla()">C</button>
             <button onclick="pantalla.borrarValores()">&larr;</button>
-            <button class="operador" value="division">/</button>
-            <button class="numero">7</button>
-            <button class="numero">8</button>
-            <button class="numero">9</button>
-            <button class="operador" value="multiplicacion">&ast;</button>
-            <button class="numero">4</button>
-            <button class="numero">5</button>
-            <button class="numero">6</button>
-            <button class="operador" value="resta">-</button>
-            <button class="numero">1</button>
-            <button class="numero">2</button>
-            <button class="numero">3</button>
-            <button class="operador" value="suma">&plus;</button>
-            <button class="numero">0</button>
-            <button class="numero">.</button>
-            <button class="botondbh operador" value="igual">&equals;</button>
+            <button class="numero" value="/">/</button>
+            <button class="numero" value="7">7</button>
+            <button class="numero" value="8">8</button>
+            <button class="numero" value="9">9</button>
+            <button class="numero" value="*">&ast;</button>
+            <button class="numero" value="4">4</button>
+            <button class="numero" value="5">5</button>
+            <button class="numero" value="6">6</button>
+            <button class="numero" value="-">-</button>
+            <button class="numero" value="1">1</button>
+            <button class="numero" value="2">2</button>
+            <button class="numero" value="3">3</button>
+            <button class="numero" value="+">&plus;</button>
+            <button class="numero" value="0">0</button>
+            <button class="numero" value=".">.</button>
+            <button class="botondbh"onclick="pantalla.Calcular()">&equals;</button>
         </div>
     </div>
 </body>
