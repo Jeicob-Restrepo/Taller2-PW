@@ -133,6 +133,7 @@ button:active{
     max-height: 20px;
     overflow-y: hidden;
     overflow-x: hidden;
+    word-break: break-all;
 }
 
 #vsuperior{
@@ -141,4 +142,5 @@ button:active{
     max-height: 20px;
     overflow-y: hidden;
     overflow-x: hidden;
+    word-break: break-all;
 }
