@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Graficadora</title>
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="css/estilo-graficadora.css">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="js/Graficadora.js"></script>
 </head>
 <body>
     <div class="pagsup">
@@ -13,7 +16,19 @@
                 <img src="img/inicio.png" alt="volver" class="imgv">
             </a>
         </div>
-        <h1>GRAFICADORA</h1>
+            <h1>GRAFICADORA</h1>
+        <div class="contenedor-graficadora">
+            <div class="contenedor-datos">
+                Data: <input type="text", placeholder="Escribe los datos X a Graficar." id="inputdata"><br><br>
+                Labels: <input type="text", placeholder="Escribe los datos Y a Graficar." id="inputlabel"><br>
+                <button  name="validar" id="boton-validar" onclick="obtenerdatos()">validar</button>
+            </div>
+            <div class="contenedor-graficar" >
+                <div id="pie-chart"></div>
+                <div id="column-chart"></div>
+                <div id="area-chart"></div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
