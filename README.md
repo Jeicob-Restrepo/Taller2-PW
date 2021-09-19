@@ -1,6 +1,7 @@
 # Taller3-PW
 App Matematica\
 -Calculadora\
+![image](https://user-images.githubusercontent.com/82180254/133915424-045f5f39-f8bf-43ff-90cc-ab764de96d7e.png)\
 -Graficadora\
 Instrucciones para la Graficadora:\
 En el imput de data se escriben valores numericos seguidos con la coma ",".\
